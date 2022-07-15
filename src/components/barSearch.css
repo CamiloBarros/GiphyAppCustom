@@ -1,0 +1,29 @@
+#input-bar {
+    background-color: aliceblue;
+    color: black;
+    display: block;
+    font-size: large;
+    height: 30px;
+    margin: 0px auto;
+    padding: 0px 20px;
+    width: 80%;
+    border-radius: 20px;
+    border: 3px solid transparent;
+    text-align: center;
+    
+}
+
+#input-bar::placeholder {
+    font-style: italic;
+    font-size: medium;
+    
+}
+
+#input-bar:hover {
+    border: 3px solid tomato;
+}
+
+#input-bar:focus {
+    border: 3px solid tomato;
+    
+}
