@@ -7,7 +7,7 @@ export const BarSearch = ({ getGif }) => {
   return (
     <form className='container-bar' onSubmit={onSubmitRequest}>
       <input type="text" name="bar-search" id="input-bar" onChange={onChangeCategory} placeholder='Search a item..' value={category} />
-      <button type='submit' id='btn_search'>Buscar</button>
+      <button type='submit' id='btn_search'>BUSCAR</button>
     </form>
   )
 }

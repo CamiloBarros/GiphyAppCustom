@@ -1,5 +1,5 @@
 .container-grid {
-    margin-top: 3.2rem;
+    margin: 3.2rem 0rem;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
