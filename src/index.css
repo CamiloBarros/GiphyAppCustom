@@ -1,7 +1,7 @@
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 54px; /* 24px default */
   font-weight: 400;
 
   color-scheme: light dark;

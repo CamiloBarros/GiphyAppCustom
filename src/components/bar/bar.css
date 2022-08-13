@@ -1,3 +1,8 @@
+.container-bar {
+    text-align: center;
+}
+
+/* Input CSS */
 #input-bar {
     background-color: aliceblue;
     color: black;
@@ -26,4 +31,21 @@
 #input-bar:focus {
     border: 3px solid tomato;
     
+}
+
+/* Button CSS */
+#btn_search {
+    background-color: rgb(255, 99, 71);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn_search:hover {
+    background-color: rgb(210, 83, 61);
+}
+
+#btn_search:active {
+    background-color: rgb(252, 115, 91);
 }

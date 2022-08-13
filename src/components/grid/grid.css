@@ -1,0 +1,7 @@
+.container-grid {
+    margin-top: 3.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
