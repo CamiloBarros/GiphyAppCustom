@@ -1,6 +1,6 @@
 import { useState } from 'react'
 
-export const useSearch = ( getGif ) => {
+export const useSearch = (getGif) => {
   const [category, setCategory] = useState('')
 
   const onChangeCategory = (event) => {
@@ -18,6 +18,6 @@ export const useSearch = ( getGif ) => {
   return {
     category,
     onChangeCategory,
-    onSubmitRequest
+    onSubmitRequest,
   }
 }

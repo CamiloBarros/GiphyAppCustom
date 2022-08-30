@@ -1,52 +1,49 @@
 .container-bar {
-    text-align: center;
+  text-align: center;
 }
 
 /* Input CSS */
 #input-bar {
-    background-color: aliceblue;
-    color: black;
-    display: block;
-    font-size: large;
-    height: 30px;
-    margin: 0px auto;
-    padding: 0px 20px;
-    width: 80%;
-    /* border-radius: 20px; */
-    border: 3px solid transparent;
-    text-align: center;
-    
+  background-color: aliceblue;
+  color: black;
+  display: block;
+  font-size: large;
+  height: 30px;
+  margin: 0px auto;
+  padding: 0px 20px;
+  width: 80%;
+  /* border-radius: 20px; */
+  border: 3px solid transparent;
+  text-align: center;
 }
 
 #input-bar::placeholder {
-    font-style: italic;
-    font-size: medium;
-    
+  font-style: italic;
+  font-size: medium;
 }
 
 #input-bar:hover {
-    border: 3px solid tomato;
+  border: 3px solid tomato;
 }
 
 #input-bar:focus {
-    border: 3px solid tomato;
-    
+  border: 3px solid tomato;
 }
 
 /* Button CSS */
 #btn_search {
-    background-color: rgb(255, 99, 71);
-    width: 10rem;
-    padding: 10px 20px;
-    border: none;
-    /* border-radius: 20px; */
-    cursor: pointer;
+  background-color: rgb(255, 99, 71);
+  width: 10rem;
+  padding: 10px 20px;
+  border: none;
+  /* border-radius: 20px; */
+  cursor: pointer;
 }
 
 #btn_search:hover {
-    background-color: rgb(210, 83, 61);
+  background-color: rgb(210, 83, 61);
 }
 
 #btn_search:active {
-    background-color: rgb(252, 115, 91);
+  background-color: rgb(252, 115, 91);
 }

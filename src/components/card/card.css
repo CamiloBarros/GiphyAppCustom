@@ -1,26 +1,25 @@
 .card {
-    background-color: white;
-    width: 400px;
-    border: 1px solid white;
-    /* border-radius: 10px; */
+  background-color: white;
+  width: 400px;
+  border: 1px solid white;
+  /* border-radius: 10px; */
 }
 
 .card-title {
-    text-align: center;
-    color: black;
+  text-align: center;
+  color: black;
 }
 
-
 .card-container {
-    width: 100%;
-    height: 300px;
-    /* border-radius: 10px; */
-    overflow: hidden;
-    cursor: pointer;
+  width: 100%;
+  height: 300px;
+  /* border-radius: 10px; */
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .img-gif {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }

@@ -1,24 +1,23 @@
-import { useEffect, useState } from "react"
-import requestGif from "../helpers/requestGif"
+import { useEffect, useState } from 'react'
+import requestGif from '../helpers/requestGif'
 
-export const useFecthApi = ( value = 'Dragon Ball') => {
+export const useFecthApi = (value = 'Dragon Ball') => {
   const [gifs, setGifs] = useState([])
-  const [isLoading, setIsLoading] = useState( true )
+  const [isLoading, setIsLoading] = useState(true)
 
-  const getGif = async ( value ) => {
+  const getGif = async (value) => {
     const newSetGifs = await requestGif(value)
     setGifs(newSetGifs)
-    setIsLoading( false )
+    setIsLoading(false)
   }
 
   useEffect(() => {
-    getGif( value )
+    getGif(value)
   }, [])
 
-  
   return {
     gifs,
     getGif,
-    isLoading
+    isLoading,
   }
 }
