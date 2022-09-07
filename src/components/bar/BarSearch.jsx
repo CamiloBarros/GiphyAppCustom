@@ -1,3 +1,4 @@
+import PropTypes from 'prop-types'
 import { useSearch } from '../../hooks/useSearch'
 import './bar.css'
 
@@ -5,7 +6,11 @@ export const BarSearch = ({ getGif }) => {
   const { category, onChangeCategory, onSubmitRequest } = useSearch(getGif)
 
   return (
-    <form className='container-bar' onSubmit={onSubmitRequest}>
+    <form
+      className='container-bar'
+      onSubmit={onSubmitRequest}
+      aria-label='form'
+    >
       <input
         type='text'
         name='bar-search'
@@ -19,4 +24,8 @@ export const BarSearch = ({ getGif }) => {
       </button>
     </form>
   )
+}
+
+BarSearch.propTypes = {
+  getGif: PropTypes.func.isRequired,
 }
